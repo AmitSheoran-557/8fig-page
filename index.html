@@ -6,37 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="icon" href="./assets/image/png/favicon.png">
+    <link rel="icon" href="./assets/image/png/favicon.webp">
     <title>Landing-page</title>
-    <meta name="title" content="Kaijuu Crew" />
-    <meta name="description" content="The ocean surges with spray and foam, As Kaijuu rise from depth to roam." />
+    <meta name="title" content="Get AI funding for your store" />
+    <meta name="description" content="AI technology that predicts, plans, and protects your cash flow." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kaijuu-crew-eqt4.vercel.app/" />
-    <meta property="og:title" content="Kaijuu Crew" />
-    <meta property="og:description"
-        content="The ocean surges with spray and foam, As Kaijuu rise from depth to roam." />
+    <meta property="og:url" content="https://8fig-page.vercel.app/" />
+    <meta property="og:title" content="Get AI funding for your store" />
+    <meta property="og:description" content="AI technology that predicts, plans, and protects your cash flow." />
     <meta property="og:image" content="/meta-tag-img.png" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://kaijuu-crew-eqt4.vercel.app/" />
-    <meta property="twitter:title" content="Kaijuu Crew" />
-    <meta property="twitter:description"
-        content="The ocean surges with spray and foam, As Kaijuu rise from depth to roam." />
+    <meta property="twitter:url" content="https://8fig-page.vercel.app/" />
+    <meta property="twitter:title" content="Get AI funding for your store" />
+    <meta property="twitter:description" content="AI technology that predicts, plans, and protects your cash flow." />
     <meta property="twitter:image" content="/meta-tag-img.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- ========================================================= -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 fontFamily: {
-                    "godzilla": ["Godzilla", "sans-serif"],
-                    "Poppins": ["Poppins", "sans-serif"],
+                    "abril": ['abril-display', 'sans-serif'],
                 },
                 container: {
                     center: true,
@@ -46,127 +35,147 @@
                     },
                 },
                 extend: {
-                    backdropBlur: {
-                        "35": "35px",
-                    },
                     fontSize: {
                         "customLg": "62px",
                     },
-
                     colors: {
                         "primary": "#0E1122",
                         "blue": "#4C57FF",
                         "gray": "#76767F",
                         "light-white": "#EFECE6",
+                        "light-gray": "#DDDDDF",
                     },
                     boxShadow: {
                         "light-1": "0px 0px 40px 0px #FFFFFF",
                     },
                     backgroundImage: {
-                        "hero-bg": "url('assets/image/png/hero-bg.png')",
+                        "hero-bg": "url('assets/image/png/hero-bg.webp')",
                     },
                 },
             },
         };
     </script>
+    <style>
+        @font-face {
+            font-family: "abril-display";
+            src: url("assets/font/Abril_Display_Bold.otf");
+        }
+
+        @font-face {
+            font-family: "abril-display";
+            src: url("assets/font/Abril_Display_SemiBold.otf");
+        }
+    </style>
 </head>
 
 <body>
-    <section class="bg-hero-bg bg-cover">
+
+    <!-- ================================ Hero section ==================================== -->
+    <section class="bg-hero-bg bg-center bg-cover">
         <div class="container max-lg:px-6">
             <nav class="py-6">
-                <img class="max-w-[50px]" src="./assets/image/png/logo.png" alt="page-logo" />
+                <a href="/"><img class="max-w-[50px]" src="./assets/image/png/logo.webp" alt="page-logo" /></a>
             </nav>
         </div>
         <div
-            class="container  flex justify-center items-center xl:pt-[200px] pt-40 xl:pb-[224px] lg:pb-44 md:pb-28 sm:pb-20 pb-[60px] mx-auto w-full">
+            class="container flex justify-center items-center xl:pt-[200px] lg:pt-40 max-lg:pt-[245px] xl:pb-[224px] lg:pb-44 md:pb-28 sm:pb-20 pb-[60px] mx-auto w-full">
             <div class="flex flex-wrap w-full max-lg:flex-col-reverse">
-                <div class="lg:w-6/12 w-full flex mx-auto max-lg:items-center flex-col justify-center">
+                <div class="lg:w-6/12 w-full lg:pt-[60px] flex mx-auto max-lg:items-center flex-col justify-end">
                     <div class="max-lg:px-[38px]">
                         <h1
-                            class="max-w-[478px] lg:mb-6 md:mb-5 mb-3 font-bold xl:text-customLg lg:text-6xl md:text-5xl text-[47px] text-white leading-none">
+                            class="max-w-[478px] lg:block max-lg:hidden font-abril !leading-[111%] lg:mb-6 md:mb-5 mb-3 font-bold xl:text-customLg lg:text-6xl md:text-5xl text-[47px] text-white ">
                             Get
                             AI funding for your store</h1>
+                            <h1
+                            class="max-w-[478px] font-abril max-lg:block lg:hidden !leading-[114%] lg:mb-6 md:mb-5 mb-4 font-bold xl:text-customLg lg:text-6xl md:text-5xl text-[47px] text-white ">
+                            Get
+                            AI funding for Your Store</h1>
                         <p
-                            class="xl:mb-6 lg:mb-5 md:mb-4 mb-3 font-poppins text-white max-w-[408px] lg:text-[22px] text-lg">
+                            class="xl:mb-6 lg:mb-5 lg:!leading-[130%] !leading-[137%] md:mb-4 mb-4 font-poppins text-white max-w-[408px] lg:text-[22px] text-lg">
                             AI technology that predicts, plans, and protects your cash flow.
                         </p>
                         <button
-                            class="lg:py-[10px] py-[9px] max-w-[179px] hover:bg-transparent hover:border-white border-transparent border duration-300 ease-linear xl:px-11 lg:px-9 md:px-7 px-6 rounded-full bg-blue font-medium lg:text-base text-sm text-white font-poppins">
+                            class="lg:py-[9.5px] py-[9px] lg:max-w-[179px] max-w-[127px] w-full hover:bg-transparent hover:border-white border-transparent border duration-300 ease-linear lg:px-10 px-5 rounded-full bg-blue font-medium lg:text-base text-sm text-white font-poppins">
                             Get funded
                         </button>
                     </div>
                 </div>
-                <div class="lg:w-6/12 w-full flex justify-end">
-                    <img class="max-w-[365px] sm:block hidden" src="./assets/image/png/hero-img.png" alt="hero-img" />
-                    <img class="max-w-[194px] mb-[55px] max-sm:block hidden" src="./assets/image/png/hero-sec-sm.png"
+                <div class="lg:w-6/12 w-full flex lg:justify-end sm:justify-center justify-end">
+                    <img class="max-w-[365px] sm:block max-sm:hidden xl:max-h-[324px] max-lg:mb-10"
+                        src="./assets/image/png/hero-img.webp" alt="hero-img" />
+                    <img class="max-w-[194px] mb-[55px] max-sm:block sm:hidden" src="./assets/image/png/hero-sec-sm.webp"
                         alt="fund-img">
                 </div>
             </div>
         </div>
     </section>
 
-
+    <!-- ================================ Supported platforms section ===================== -->
     <section class="bg-primary">
         <div
             class="container lg:pt-[46px] lg:pb-[54px] py-[60px] max-w-[1440px] flex flex-col items-center justify-center w-full mx-auto">
-            <div class="max-lg:block hidden">
-                <p class="font-medium text-sm mb-[30px] text-white tracking-[8%] text-center">
+            <div class="max-lg:block hidden w-full max-h-max mb-8">
+                <p class="font-medium lg:text-sm text-xs !leading-[130%] uppercase text-white tracking-[8%] text-center">
                     main supported platforms
                 </p>
             </div>
-            <div class="flex flex-wrap max-w-[739px] max-lg:px-12 gap-[52px]">
+            <div class="flex flex-wrap max-w-[839px] w-full justify-center sm:px-12 gap-[52px]">
                 <div class="lg:block hidden">
-                    <p class="font-medium text-sm text-white tracking-[8%] text-center">
+                    <p class="font-medium text-sm uppercase text-white !tracking-[8%] text-center">
                         main supported platforms
                     </p>
                 </div>
                 <div>
-                    <img class="lg:max-w-[56px] max-w-[70px] w-full" src="./assets/image/png/amazon-logo.png"
+                    <img class="lg:max-w-[56px] max-w-[70px] w-full max-sm:mr-10 max-sm:mt-3" src="./assets/image/png/amazon-logo.webp"
                         alt="amazon-logo" />
                 </div>
                 <div>
-                    <img class="lg:max-w-[85px] max-w-[105px] w-full" src="./assets/image/png/shopify-logo.png"
+                    <img class="lg:max-w-[85px] max-w-[105px] w-full max-sm:mt-1" src="./assets/image/png/shopify-logo.webp"
                         alt="shopify-logo" />
                 </div>
                 <div>
-                    <img class="lg:max-w-[60px] max-w-[73px] w-full" src="./assets/image/png/ebay-logo.png"
+                    <img class="lg:max-w-[60px] max-w-[73px] w-full max-sm:mr-10" src="./assets/image/png/ebay-logo.webp"
                         alt="ebay-logo" />
                 </div>
                 <div>
-                    <img class="max-w-[101px] w-full" src="./assets/image/png/bigcommerce-logo.png"
+                    <img class="max-w-[101px] w-full max-sm:mt-1.5" src="./assets/image/png/bigcommerce-logo.webp"
                         alt="bigcommerce-logo" />
                 </div>
             </div>
         </div>
     </section>
 
-
+    <!-- ================================ AI evaluation section =========================== -->
     <section class="bg-light-white xl:py-[120px] lg:py-24 md:py-20 sm:py-16 max-sm:pt-[60px] max-sm:pb-[54px]">
         <div class="container max-w-[1240px] flex justify-center w-full mx-auto">
             <div class="flex flex-wrap w-full max-lg:flex-col-reverse">
                 <div class="lg:w-6/12 w-full lg:px-3 max-lg:flex sm:justify-center justify-end">
-                    <img class="max-w-[570px] w-full sm:block hidden max-lg:mt-10"
-                        src="./assets/image/png/forecasting-img.png" alt="forecasting-img" />
-                    <img class="max-sm:block hidden max-w-[369px] w-full mt-10"
-                        src="./assets/image/png/forecasting-sm-img.png" alt="forecasting-img">
+                    <img class="max-w-[570px] w-full xl:-translate-x-[27px] sm:block max-sm:hidden max-lg:mt-10"
+                        src="./assets/image/png/forecasting-img.webp" alt="forecasting-img" />
+
+                    <img class="max-sm:block sm:hidden max-w-[369px] w-full mt-10"
+                        src="./assets/image/png/forecasting-sm-img.webp" alt="forecasting-img">
                 </div>
                 <div
-                    class="lg:w-6/12 w-full lg:px-3 max-lg:ps-[38px] max-lg:pe-[34px] flex flex-col max-lg:items-center justify-center lg:justify-end">
-                    <div class="max-w-max">
-                        <div class="mb-[19px]"> <img class="max-w-9 w-full max-sm:mx-auto"
-                                src="./assets/image/png/num-1-img.png" alt="num-1-img">
+                    class="lg:w-6/12 w-full lg:px-3 max-lg:ps-[38px] max-lg:pe-[34px] flex flex-col max-lg:items-center ">
+                    <div class="max-w-max lg:ps-6">
+                        <div class="lg:mb-[19px] mb-[17px]"> <img class="max-w-9 w-full max-lg:mx-auto"
+                                src="./assets/image/png/num-1-img.webp" alt="num-1-img">
                         </div>
-                        <h2 class="max-w-[364px] font-semibold max-lg:text-center xl:text-[39px] lg:text-4xl text-[28px] lg:mb-1 mb-[14px]">Get an
+                        <h2
+                            class="max-w-[364px] font-abril lg:!leading-[116%] !leading-[120%] font-semibold max-lg:text-center xl:text-[39px] lg:text-4xl text-[28px] lg:mb-1 mb-5">
+                            Get an
                             AI evaluation of your
-                            supply chain
+                            supply <span class="xl:block hidden">&nbsp;</span> chain
                             needs</h2>
-                        <p class="font-medium lg:text-[22px] text-lg lg:mb-5 mb-[14px] lg:max-w-[333px] max-w-72 max-lg:text-center">By
+                        <p
+                            class="font-medium lg:text-[22px] !font-poppins text-lg mb-5 !leading-[133%] lg:max-w-[333px] max-lg:mx-auto max-w-72 max-lg:text-center">
+                            By
                             analyzing your sales velocity and
                             growth
                             potential.</p>
                         <button
-                            class="py-[6px] max-lg:flex mx-auto w-full hover:bg-transparent hover:text-blue hover:border-blue border-transparent border duration-300 ease-linear max-w-[104px] px-5 rounded-full font-poppins text-white font-medium text-xs bg-blue">
+                            class="pt-[7px] pb-[8px] flex justify-center items-center max-lg:mx-auto w-full hover:bg-transparent hover:text-blue hover:border-blue border-transparent border duration-300 ease-linear max-w-[104px] px-4 rounded-full font-poppins text-white font-medium text-xs bg-blue">
                             Apply now </button>
                     </div>
                 </div>
@@ -174,61 +183,124 @@
         </div>
     </section>
 
-
+    <!-- ================================ Rating section ================================== -->
     <section class="bg-primary">
-        <div class="container py-[87px] max-w-[1440px] max-lg:px-6 flex justify-center w-full mx-auto">
+        <div
+            class="container lg:pt-[87px] lg:pb-[85px] max-lg:pt-[52px] max-lg:pb-[51px] max-w-[1440px] max-lg:px-6 flex justify-center w-full mx-auto">
             <div
                 class="flex flex-wrap  mx-auto justify-center items-center w-full xl:gap-[102px] lg:gap-24 md:gap-20 gap-[60px]">
                 <div class="max-w-[207px] flex flex-col justify-center items-center">
                     <img class="lg:max-w-[83px] max-w-[53px] w-full lg:mb-[10px] mb-[6px]"
-                        src="./assets/image/png/businees-img.png" alt="businees-img">
-                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] text-white">‘A’Rating </h2>
+                        src="./assets/image/png/businees-img.webp" alt="businees-img">
+                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] font-abril text-white">‘A’Rating </h2>
                 </div>
                 <div class="max-w-[230px] flex flex-col justify-center items-center">
                     <p class="font-Poppins xl:text-[19px] lg:text-base text-xs lg:mb-[10px] mb-[6px] text-white">Average
                         store growth</p>
-                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] text-white">400%</h2>
+                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] font-abril text-white">400%</h2>
                 </div>
-                <div class="max-w-[208px] flex flex-col justify-center items-center">
+                <div class="max-w-[230px] max-lg:block lg:hidden flex flex-col justify-center items-center max-sm:-mt-[10px]">
+                    <p class="font-Poppins mb-[10px] xl:text-[19px] text-center lg:text-base text-xs text-white">Funding given</p>
+                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] font-abril text-white">$450M+</h2>
+                </div>
+                <div class="max-w-[208px] flex flex-col justify-center items-center max-sm:-mt-3">
                     <img class="lg:max-w-[140px] max-w-[89px] w-full lg:mb-[10px] mb-[6px]"
-                        src="./assets/image/png/trustpilot-logo.png" alt="trustpilot-logo">
-                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] text-white">Excellent</h2>
+                        src="./assets/image/png/trustpilot-logo.webp" alt="trustpilot-logo">
+                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] font-abril text-white">Excellent</h2>
                 </div>
-                <div class="max-w-[230px] flex flex-col justify-center items-center">
-                    <p class="font-Poppins mb-[10px] xl:text-[19px] lg:text-base text-xs text-white">Funding given</p>
-                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] text-white">$450M+</h2>
+                <div class="max-w-[230px] lg:block max-lg:hidden flex flex-col justify-center items-center ">
+                    <p class="font-Poppins mb-[10px] text-center xl:text-[19px] lg:text-base text-xs text-white">Funding given</p>
+                    <h2 class="font-semibold xl:text-[50px] lg:text-4 text-[31px] font-abril text-white">$450M+</h2>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="bg-light-white pt-[70px] lg:pb-[60px] pb-14 max-lg:px-6">
-        <div class="container flex flex-col justify-center items-center">
-            <h3 class="text-gray lg:mb-5 mb-[14px] font-poppins font-medium uppercase text-sm tracking-[8%]">still have
+    <!-- ================================ FAQ section ===================================== -->
+    <section class="bg-light-white lg:pt-[70px] pt-14 lg:pb-[60px] pb-[55px] max-lg:px-6">
+        <div class="container max-w-[1240px] flex flex-col justify-center items-center">
+            <h3 class="text-gray lg:mb-5 mb-[14px] font-poppins font-medium uppercase text-sm !tracking-[8%]">still have
                 questions?
             </h3>
-            <h2 class="font-semibold xl:text-[39px] lg:text-4xl text-[28px] text-center lg:mb-6 mb-10">Learn more with FAQ</h2>
+            <h2 class="font-semibold lg:block max-lg:hidden xl:text-[39px] lg:text-4xl font-abril text-[28px] text-center lg:mb-6 mb-10">Learn
+                more with
+                FAQ</h2>
+                <h2 class="font-semibold xl:text-[39px] max-lg:block lg:hidden lg:text-4xl font-abril text-[28px] text-center lg:mb-6 mb-10">learn
+                    more with
+                    FAQ</h2>
+
+            <div class="accordion max-w-[1240px] w-full mx-auto lg:mt-16">
+                <div class="border-b border-b-light-gray py-5 lg:px-4 max-lg:ps-4">
+                    <div class="accordion-header flex justify-between cursor-pointer">
+                        <h4 class="font-medium text-lg !leading-[133%] text-primary">Who is eligible for a Growth Plan?
+                        </h4>
+                        <img class="icon transition-transform w-5 h-5 ml-20" src="/assets/image/svg/plus-icon.svg"
+                            alt="icon">
+                    </div>
+                    <div class="accordion-content text-primary hidden lg:pt-4 pt-3 font-medium">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique eveniet odio itaque
+                        earum ullam id culpa saepe officiis obcaecati!
+                    </div>
+                </div>
+                <div class="border-b border-b-light-gray py-5 lg:px-4 max-lg:ps-4">
+                    <div class="accordion-header flex justify-between cursor-pointer">
+                        <h4 class="font-medium text-lg !leading-[133%] text-primary">How much funding can I qualify for?
+                        </h4>
+                        <img class="icon transition-transform w-5 h-5 ml-20" src="/assets/image/svg/plus-icon.svg"
+                            alt="icon">
+                    </div>
+                    <div class="accordion-content text-primary hidden lg:pt-4 pt-3 font-medium">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique eveniet odio itaque
+                        earum ullam id culpa saepe officiis obcaecati!
+                    </div>
+                </div>
+                <div class="border-b border-b-light-gray py-5 lg:px-4 max-lg:ps-4">
+                    <div class="accordion-header flex justify-between cursor-pointer">
+                        <h4 class="font-medium text-lg !leading-[133%] text-primary">What is the cost of the Growth Plan?
+                        </h4>
+                        <img class="icon transition-transform w-5 h-5 ml-20" src="/assets/image/svg/plus-icon.svg"
+                            alt="icon">
+                    </div>
+                    <div class="accordion-content text-primary hidden lg:pt-4 pt-3 font-medium">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique eveniet odio itaque
+                        earum ullam id culpa saepe officiis obcaecati!
+                    </div>
+                </div>
+                <div class="border-b border-b-light-gray py-5 lg:px-4 max-lg:ps-4">
+                    <div class="accordion-header flex justify-between cursor-pointer">
+                        <h4 class="font-medium text-lg !leading-[133%] text-primary">Does 8fig charge money for its
+                            services?</h4>
+                        <img class="icon transition-transform w-5 h-5 ml-24" src="/assets/image/svg/plus-icon.svg"
+                            alt="icon">
+                    </div>
+                    <div class="accordion-content text-primary hidden lg:pt-4 pt-3 font-medium">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum similique eveniet odio itaque
+                        earum ullam id culpa saepe officiis obcaecati!
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
+    <!-- ================================ AI funding section ============================== -->
     <section class="lg:py-12 max-lg:pt-[51px] max-lg:pb-[90px]">
-        <div class="container flex flex-col justify-center items-center">
+        <div class="container flex flex-col max-w-[1166px] justify-center items-center px-3">
             <div class="flex flex-wrap items-center w-full">
                 <div class="lg:w-6/12 w-full max-lg:flex flex-col justify-center items-center">
                     <h2
-                        class="font-semibold max-w-[401px] xl:text-[39px] lg:text-4xl text-[28px] max-lg:px-8 max-lg:text-center text-start mb-5">
+                        class="font-semibold font-abril max-lg:!leading-[130%] max-w-[401px] xl:text-[39px] lg:text-4xl text-[28px] max-lg:px-8 max-lg:text-center text-start lg:mb-5 mb-3">
                         Become an 8 figure seller with
                         AI funding
                     </h2>
                     <button
-                        class="lg:py-[10px] py-[9px] lg:max-w-[173px] max-w-[122px] w-full hover:bg-transparent hover:text-blue hover:border-blue border-transparent border duration-300 ease-linear xl:px-11 lg:px-9 md:px-7 px-6 rounded-full bg-blue font-medium lg:text-base text-sm text-white font-poppins">
+                        class="lg:py-[10px] py-[9px] lg:max-w-[173px] max-w-[122px] w-full hover:bg-transparent hover:text-blue hover:border-blue border-transparent border duration-300 ease-linear xl:px-10 lg:px-9 px-5 rounded-full bg-blue font-medium lg:text-base text-sm text-white font-poppins">
                         Apply now
                     </button>
                 </div>
                 <div
-                    class="lg:w-6/12 w-full max-lg:flex max-sm:inline-block max-sm:-translate-x-[52px] justify-center relative">
-                    <img class="max-w-[440px] w-full max-lg:mt-[43px] " src="./assets/image/png/apply-sec-img.png"
+                    class="lg:w-6/12 w-full flex max-sm:inline-block max-sm:-translate-x-16 lg:justify-end justify-center relative">
+                    <img class="max-w-[440px] max-sm:w-[417px] max-sm:h-[278px] w-full max-lg:mt-[43px]" src="./assets/image/png/apply-sec-img.webp"
                         alt="girl-img">
                 </div>
 
@@ -236,44 +308,50 @@
         </div>
     </section>
 
+    <!-- ================================ Footer section ================================== -->
     <footer class="pt-[53px] xl:pb-16 lg:pb-12 md:pb-10 pb-7 bg-primary flex justify-center items-center">
         <div class="container max-w-[1335px] w-full flex flex-col mx-auto justify-center items-center md:px-3">
             <div class="flex flex-wrap w-full justify-between  max-md:ps-10 max-md:pe-[34px]">
                 <div class="md:w-4/12 w-6/12 flex justify-center">
-                    <div class="flex max-md:flex-col xl:gap-[77px] lg:gap-10 gap-[14px]">
-                        <img class="max-w-[69px]" src="./assets/image/png/logo.png" alt="page-logo">
-                        <p class="uppercase font-poppins font-medium lg:text-sm text-xs tracking-[8%] max-w-[163px] text-gray">
+                    <div class="flex max-md:flex-col xl:gap-[77px] lg:gap-10 gap-[15px]">
+                        <a href="/"> <img class="max-w-[69px]" src="./assets/image/png/logo.webp" alt="page-logo"></a>
+                        <p
+                            class="uppercase font-poppins font-medium max-sm:leading-[160%] lg:text-sm text-xs tracking-[8%] max-w-[163px] text-gray">
                             8fig, 1717 W
                             6th St, Austin, Texas</p>
                     </div>
                 </div>
                 <div class="md:w-4/12 max-md:hidden flex justify-center">
-                    <p class="uppercase font-poppins font-medium text-sm tracking-[8%] text-gray">© 2024 8fig - All
+                    <p class="uppercase font-poppins font-medium text-sm tracking-[8%] text-gray">span 2024 8fig - All
                         Rights
                         Reserved</p>
                 </div>
-                <div class="md:w-4/12 w-6/12 flex md:justify-end justify-center">
+                <div class="md:w-4/12 w-6/12 flex md:justify-end max-md:mt-3 justify-center">
                     <div class="flex max-w-[210px] w-full xl:gap-9 lg:gap-7 gap-[23px]">
-                        <a href=""><img class="lg:max-w-[14px] max-w-[9px] w-full"
-                                src="./assets/image/svg/facebook-logo.svg" alt="facebook-logo"> </a>
-                        <a href=""><img class="lg:max-w-[27px] max-w-[17px] w-full"
-                                src="./assets/image/svg/instagram-logo.svg" alt="instagram-logo"></a>
-                        <a href=""><img class="lg:max-w-[31px] max-w-[20px] w-full"
-                                src="./assets/image/svg/linkedin-logo.svg" alt="linkedin-logo"></a>
-                        <a href=""><img class="lg:max-w-[29px] max-w-[18px] w-full"
-                                src="./assets/image/svg/twitter-logo.svg" alt="twitter-logo"></a>
+                        <a class="hover:scale-[1.09] duration-200 ease-linear" href="https://www.facebook.com/" target="_blank"><img
+                                class="lg:max-w-[14px] max-w-[9px] w-full" src="./assets/image/svg/facebook-logo.svg"
+                                alt="facebook-logo"> </a>
+                        <a class="hover:scale-[1.09] duration-200 ease-linear" href="https://www.instagram.com/" target="_blank"><img
+                                class="lg:max-w-[27px] max-w-[17px] w-full" src="./assets/image/svg/instagram-logo.svg"
+                                alt="instagram-logo"></a>
+                        <a class="hover:scale-[1.09] duration-200 ease-linear" href="https://www.linkedin.com/" target="_blank"><img
+                                class="lg:max-w-[31px] max-w-[20px] w-full" src="./assets/image/svg/linkedin-logo.svg"
+                                alt="linkedin-logo"></a>
+                        <a class="hover:scale-[1.09] duration-200 ease-linear" href="https://x.com/?lang=en-id" target="_blank"><img
+                                class="lg:max-w-[29px] max-w-[18px] w-full" src="./assets/image/svg/twitter-logo.svg"
+                                alt="twitter-logo"></a>
                     </div>
                 </div>
             </div>
             <div class="md:hidden flex mx-auto justify-center items-center ">
-                <p class="uppercase font-poppins font-medium sm:text-sm text-xs mt-[63px] tracking-[8%] text-gray">© 2024 8fig - All
+                <p class="uppercase font-poppins font-medium sm:text-sm text-xs mt-[63px] flex justify-center items-center tracking-[8%] text-gray"><span class="text-xl">© &nbsp;</span>
+                    2024 8fig - All
                     Rights
                     Reserved</p>
             </div>
         </div>
     </footer>
-
-
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
